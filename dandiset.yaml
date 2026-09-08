@@ -3,6 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000955
+  name: brain
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -13,8 +17,8 @@ assetsSummary:
     name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 1421630971
-  numberOfFiles: 5980
+  numberOfBytes: 1424926434
+  numberOfFiles: 5993
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
@@ -28,17 +32,30 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: NIH 5R24MH117295-07
+  identifier: https://ror.org/01cwqze88
+  name: NIH
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-06-21T15:57:17.204858+00:00'
 description: Archived job runs from DANDI Compute.
+ethicsApproval: []
 id: DANDI:001873/draft
 identifier: DANDI:001873
+keywords:
+- spike sorting
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001873/versions/draft/assets/
 name: 'DANDI Compute: Archive'
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- meta-analysis of spike-sorting
 url: https://dandiarchive.org/dandiset/001873/draft
 version: draft
+wasGeneratedBy: []
