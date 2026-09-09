@@ -17,13 +17,13 @@ assetsSummary:
     name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 1426189125
-  numberOfFiles: 6168
+  numberOfBytes: 1433653741
+  numberOfFiles: 6195
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: 'Baker, Cody (2026) DANDI Compute: Archive (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001873/draft'
+citation: Baker, Cody (2026) DANDI Compute (Archive) (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001873/draft
 contributor:
 - affiliation: []
   email: cody.c.baker.phd@gmail.com
@@ -49,7 +49,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001873/versions/draft/assets/
-name: 'DANDI Compute: Archive'
+name: DANDI Compute (Archive)
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
